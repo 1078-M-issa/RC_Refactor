@@ -137,6 +137,7 @@ public class ResourceCentreTest {
 	
 	@Test
 	public void testDoLoanChromebook() {
+		
 		//boundary
 		assertNotNull("Test if there is valid Chromebook arraylist to add to", chromebookList);
 		ResourceCentre.addChromebook(chromebookList, cb1);
